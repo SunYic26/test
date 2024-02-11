@@ -1,9 +1,11 @@
+package com.example;
+
 public abstract class StatsAttacks {
-    String name = null;
-    int healthPoints = 0;
-    int maxHealth = 0;
-    int attack = 0;
-    int speed = 0;
+    public String name = null;
+    public int healthPoints = 0;
+    public int maxHealth = 0;
+    public int attack = 0;
+    public int speed = 0;
     /** Changes made to hitPlayer according to old Character class, might have bugs **/
     public boolean hitPlayer(Player target) {
         target.healthPoints-= this.attack;

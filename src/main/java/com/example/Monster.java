@@ -1,3 +1,5 @@
+package com.example;
+
 public class Monster extends StatsAttacks{
 
     public Monster(String name) {
