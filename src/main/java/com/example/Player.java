@@ -1,3 +1,5 @@
+package com.example;
+
 public class Player extends StatsAttacks{
 
     public Player(String name) {

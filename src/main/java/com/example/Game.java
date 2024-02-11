@@ -1,7 +1,9 @@
+package com.example;
+
 import java.util.Scanner;
 
 public class Game {
-    Scanner scanner = new Scanner(System.in);
+    public Scanner scanner = new Scanner(System.in);
 
     public static boolean quit;
     public void startGame() {
