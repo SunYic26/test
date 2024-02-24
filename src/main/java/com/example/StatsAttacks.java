@@ -6,6 +6,7 @@ public abstract class StatsAttacks {
     public int maxHealth = 0;
     public int attack = 0;
     public int speed = 0;
+    public boolean isMonster;
     /** Changes made to hitPlayer according to old Character class, might have bugs **/
     public boolean hitPlayer(Player target) {
         target.healthPoints-= this.attack;
@@ -46,5 +47,17 @@ public abstract class StatsAttacks {
         System.out.println("Attack: " + this.attack + "           Health: " + this.healthPoints + " out of " + this.maxHealth + "           Speed: " + this.speed);
     }
 
+    public int getSpeed() {
+        return this.speed;
+    }
+    public int getHealthPoints() {
+        return this.healthPoints;
+    }
+    public int getAttack() {
+        return this.attack;
+    }
+    public int getMaxHealth() {
+        return this.maxHealth;
+    }
 
 }
