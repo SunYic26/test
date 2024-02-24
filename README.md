@@ -1,15 +1,12 @@
 # RPG (Game)
 
 Simple simulation of universal role-playing game combat mechanics through user input into the console.
-<<<<<<< HEAD
 
-=======
->>>>>>> 12b7fd8 (Concise readme, modified gameplay features, and added instructions)
 ## Status
 
 This project is still in very early stages of development.
 
-<<<<<<< HEAD
+
 
 ## Prerequisites
 * Java installed
@@ -24,12 +21,4 @@ This project is still in very early stages of development.
   * `mvn package`
 * Run
   * `java -jar target\RPGGame-1.0-SNAPSHOT-shaded.jar`
-=======
-# Build
-## Installation and run
-* Java Executable
 
-* Go to RPGGame directory
-* `mvn package` to build into JAR, `mvn clean` to clean past builds
-* Run with `java -jar target\RPGGame-1.0-SNAPSHOT-shaded.jar`
->>>>>>> 12b7fd8 (Concise readme, modified gameplay features, and added instructions)
